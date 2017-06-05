@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/listItem">
+
+    <TextView
+        android:id="@+id/section"
+        style="@style/sectionText"
+        tools:text="Section" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/titleText"
+        tools:text="Article's title" />
+
+    <TextView
+        android:id="@+id/publish_date"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula dui vitae eros scelerisque tincidunt. Ut porta purus tempor, placerat mauris congue, blandit ex. Etiam consequat metus sit amet nisi tristique, eget porttitor libero euismod. Donec eleifend, massa a aliquam lobortis, odio sem suscipit quam, vel finibus massa elit ac lorem. In hac habitasse platea dictumst. Nunc in tellus non turpis consectetur condimentum. "
+        style="@style/dateText" />
+
+
+</LinearLayout>
